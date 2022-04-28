@@ -1,5 +1,5 @@
 import { AiFillHome } from "react-icons/ai";
-import { FaMusic, FaSearch } from "react-icons/fa";
+import { FaMusic } from "react-icons/fa";
 import styles from "./styles.module.scss";
 
 export function SideMenu() {
@@ -22,10 +22,6 @@ export function SideMenu() {
             <span>
               <FaMusic />
               <a href="/">Playlists</a>
-            </span>
-            <span>
-              <FaSearch />
-              <a href="/">Search</a>
             </span>
           </nav>
         </div>
