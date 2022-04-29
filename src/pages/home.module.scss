@@ -1,8 +1,13 @@
 .background {
   background: linear-gradient(to right, rgb(21, 16, 41) 60%, rgb(28, 8, 36));
   width: 85vw;
-  height: 100vh;
-  padding: 2rem;
+  height: calc(100vh - 2rem);
+  padding: 2rem 0 0 4rem;
+
+  h2{
+    color: #fefefe;
+    font-weight: 900;
+  }
 }
 
 .container {
